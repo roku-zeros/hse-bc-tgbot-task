@@ -14,6 +14,9 @@ windows: python db.py
 
 ## How to start
 
-Чтобы запустить проект нужно вставить токен вызвать:
+Чтобы запустить проект нужно вставить токен сюда ([**как получить токен**](https://helpdesk.bitrix24.ru/open/17538378/#:~:text=Получить%20токен%20для%20существующего%20бота,а%20вместо%20него%20создан%20новый.)):
+bot = telebot.TeleBot('TOKEN')
+
+Запуск
 linux/macos: python3 main.py
 windows: python main.py
